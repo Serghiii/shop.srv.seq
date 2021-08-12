@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "root",
+    "password": "admin",
+    "database": "shop2",
+    "host": "localhost",
+    "dialect": "mysql",
+    "timezone": "Europe/Kiev",
+    "dialectOptions": {
+      "timezone": "local"
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": "admin",
+    "database": "shop",
+    "host": "localhost",
+    "dialect": "mysql",
+    "timezone": "Europe/Kiev",
+    "dialectOptions": {
+      "timezone": "local"
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": "admin",
+    "database": "shop",
+    "host": "localhost",
+    "dialect": "mysql",
+    "timezone": "Europe/Kiev",
+    "dialectOptions": {
+      "timezone": "local"
+    }
+  }
+}
